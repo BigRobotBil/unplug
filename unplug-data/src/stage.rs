@@ -8,9 +8,9 @@ pub const NUM_DEV_STAGES: usize = 9;
 pub const NUM_STAGES: usize = NUM_REAL_STAGES + NUM_DEV_STAGES;
 
 /// The directory where stages are stored in qp.bin.
-pub const STAGE_DIR: &str = "bin/e";
+pub const STAGE_DIR: &str = "bin";
 /// The path where globals.bin is stored in qp.bin.
-pub const GLOBALS_PATH: &str = "bin/e/globals.bin";
+pub const GLOBALS_PATH: &str = "bin/globals.bin";
 
 #[derive(Debug)]
 pub struct StageDefinition {

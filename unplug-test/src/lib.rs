@@ -9,11 +9,11 @@ use tempfile::{NamedTempFile, TempPath};
 // rust-analyzer doesn't like this import but it should be fine, just disable the diagnostic
 use unplug::dvd::DiscStream;
 
-pub static GAME_ID: &str = "GGTE01";
+pub static GAME_ID: &str = "GGTJ01";
 
 pub static QP_PATH: &str = "qp.bin";
 
-pub static QP_GLOBALS_PATH: &str = "bin/e/globals.bin";
+pub static QP_GLOBALS_PATH: &str = "bin/globals.bin";
 
 static INIT_LOGGING: Once = Once::new();
 
